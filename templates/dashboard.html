@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stock Market AI</title>
+</head>
+<body>
+<h1>📈 Stock Market Analysis</h1>
+
+
+<form method="get">
+<input type="text" name="symbol" placeholder="AAPL">
+<button type="submit">Analyze</button>
+</form>
+
+
+<h2>{{ stock }}</h2>
+<p>Current Price: ₹{{ price }}</p>
+<p>Predicted Price (Next Day): ₹{{ prediction }}</p>
+<p>RSI: {{ rsi }}</p>
+<h3>Signal: {{ signal }}</h3>
+</body>
+</html>
